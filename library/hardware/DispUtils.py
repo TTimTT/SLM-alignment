@@ -1,5 +1,6 @@
 import os
 import cv2
+import sys
 import copy
 import torch
 import mergedeep
@@ -11,7 +12,7 @@ import matplotlib.pyplot as plt
 
 #Geometric figure import
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE" # TODO whats the purpose?
-from op_torch import GeomDMD
+from ..thirdparty.op_torch import GeomDMD
 
 def stack_display(device, stackData, mult=1, margin=[0,0], marginvalue=0, padding=[0,0]):
     if torch.is_tensor(stackData):

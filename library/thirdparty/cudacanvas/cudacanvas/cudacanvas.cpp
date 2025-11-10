@@ -1,3 +1,5 @@
+ // c++ -O3 -Wall -shared -std=c++23 -fPIC $(python3 -m pybind11 --includes) glstreamer.cpp -o glstreamer$(python3-config --extension-suffix) -lglfw -lGL
+
 #include <GLFW/glfw3.h>
 #include <pybind11/pybind11.h>
 #include <torch/extension.h>
