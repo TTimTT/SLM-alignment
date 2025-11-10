@@ -36,12 +36,6 @@ cd library/thirdparty/cudacanvas
 pip install .
 ```
 
-Installing OpTorch:
-```
-cd library/thirdparty/op_torch
-pip install .
-```
-
 
 # Usage
 
