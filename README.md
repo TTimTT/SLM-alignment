@@ -49,5 +49,10 @@ This project uses various third parties libraries:
 - [Op Torch](), pyTorch library to perform various optical operations.
 
 # Citing our work
-
-@article{Noetinger_A_practical_guide_2025,author = {Noetinger, Guillaume and Tuuva, Tim and Fleury, Romain},month = nov,title = {{A practical guide to the alignment of defocused spatial light modulators for fast diffractive neural networks}},version = {1.0},year = {2025}}
+```
+@article{Noetinger_A_practical_guide_2025,<br/>
+title = {A practical guide to the alignment of defocused spatial light modulators for fast diffractive neural networks},<br/>
+author = {Noetinger, Guillaume and Tuuva, Tim and Fleury, Romain},<br/>
+journal = {},<br/>
+year = {2025}} 
+``` 
