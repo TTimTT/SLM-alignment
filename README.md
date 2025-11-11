@@ -16,7 +16,7 @@ This project was developped using the following required system components:
 - SLMs model
 - Cameras model
 - Linux + python version or conda
-- Nvidida graphic card
+- Nvidia graphic card
 
 # Installation
 The first step is to install the provided conda environment:
@@ -33,12 +33,6 @@ conda activate slm-alignment
 Installing our modified version of cudacanvas:
 ```
 cd library/thirdparty/cudacanvas
-pip install .
-```
-
-Installing OpTorch:
-```
-cd library/thirdparty/op_torch
 pip install .
 ```
 
