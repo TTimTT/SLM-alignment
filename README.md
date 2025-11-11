@@ -37,7 +37,9 @@ pip install .
 ```
 
 
-# Usage
+# Example
+
+We provide a notebook to illustrate how the screens and camera are instantiated. Afterwards, a simple function executes the calibration procedure which displays the final detected ROIs.
 
 # Third party libraries
 
